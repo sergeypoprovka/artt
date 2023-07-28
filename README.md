@@ -1,10 +1,14 @@
 # API
 
-GET /products - fetch product list
-GET /products/{id} - retrive single product
-GET /products/upload_products/ - fetch from file, parse and upload to DB
-POST /products/{id}/sold/ - mark product as sold by ID
-DELETE /products/{id} - delete product
+`GET /products` - fetch product list
+
+`GET /products/{id}` - retrive single product
+
+`GET /products/upload_products/` - fetch from file, parse and upload to DB
+
+`POST /products/{id}/sold/` - mark product as sold by ID
+
+`DELETE /products/{id}` - delete product
 
 ## Process
 
